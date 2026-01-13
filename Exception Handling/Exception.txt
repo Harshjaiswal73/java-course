@@ -1,0 +1,28 @@
+Java Exceptions
+=> An Exceptions is an unexpected events that occurs 
+   during program execution. It affects the flow of the 
+   program instruction which can cause the program to terminate
+   abnormally.
+
+
+An Exceptions can occur for many reasons. Some of them are:
+  >Invalid user input
+  >Device failure
+  >Loss of network Connections
+  >Physical Limitations (out of disk memory)
+  >Code errors
+  >Opening an unavailable file 
+
+Java Runtime Exceptions
+=> A runtime exception happens due to a programming error. 
+They are also known as uncheked exceptions.
+These exception are not checked at compile-time but run-time
+Some of the common runtime exception are:
+ 
+ > Null pointer acess(Missing the initialization of a varriable)
+   NullPointerExcetion
+ > Out-of-bounds array access - ArrayIndexOutOfBoundException
+ > Dividing a number by 0 -Arithmetic Exceptions
+
+You can think about it in this way. "If it is a runtime exception
+it is your fault.
