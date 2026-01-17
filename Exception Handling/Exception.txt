@@ -26,3 +26,26 @@ Some of the common runtime exception are:
 
 You can think about it in this way. "If it is a runtime exception
 it is your fault.
+
+Java IoException Exceptions
+=> An IoException is also known as a checked Exceptions. They
+are checked by the compiler at the compile-time and the programmer 
+is prompted to handle these exception.
+Some of the examples of checked exception are:
+>Trying to open a file that doesn't exist result in FileNotFoundException
+> Trying to read past the end of a file
+
+try-catch block
+=> the try catch block in java is used to handle exception and prevents the abnormal 
+termination of the program.
+
+try-catch-finally block
+=> in java we can also use the finally block after the try catch block
+in this case the finally block is always executed whether there is an exception
+inside the try block or not.
+It is a good practice to use finally block to include important cleanup code 
+like closing a file or connection.
+Note> There are some cases when a finally block does not execute:
+> Use of System.exit() method
+> An exception occurs in the finally block
+> the death of a thread
