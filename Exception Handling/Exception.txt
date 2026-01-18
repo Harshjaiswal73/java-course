@@ -55,3 +55,11 @@ java throw and throws
 that might occur within it. 
 
 => the throw keyword is used to explicitly throw a single exception.
+
+======================= Generics and Wrapper Classes ========
+Wrapper Classes:-
+A Wrapper class in java is a class whose object wraps or contains
+primitive data types.When we create an object to a wrapper class
+it contains a field and in this field we can store primitive 
+data types.
+
