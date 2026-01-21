@@ -21,10 +21,10 @@ public class demo2 {
 
           byte byteValue = 10; // 1 byte
           short shortValue = byteValue; //2 bytes
-          int intValue = shortValue; // 4 bytes
-          long longValue = intValue; //8 bytes
-          float floatValue = longValue; //4 bytes
-          double doubleValue = floatValue; // 8 bytes
+          //int intValue = shortValue; // 4 bytes
+          //long longValue = intValue; //8 bytes
+          //float floatValue = longValue; //4 bytes
+          //double doubleValue = floatValue; // 8 bytes
 
           System.out.println("int" + intValue);
           System.out.println("long" + longValue);

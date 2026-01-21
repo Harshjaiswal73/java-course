@@ -1,0 +1,9 @@
+java collection framework
+the java collection framework provides a set of interface and classes
+to implement various data structures and algorithms. these interface
+include several methods to perform different operations on collections.
+
+java collections Interface 
+the collection interface is the root interface of the java collections
+framework
+1 list 2 set 3 queue 4 sortedSet 5 Deque
