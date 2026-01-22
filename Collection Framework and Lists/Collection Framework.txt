@@ -7,3 +7,9 @@ java collections Interface
 the collection interface is the root interface of the java collections
 framework
 1 list 2 set 3 queue 4 sortedSet 5 Deque
+
+Java list Interface
+the list interface extends the collection interface and adds 
+methods that are specific to lists which are ordered collections
+that allow duplicate elements.Here are some methods that are present
+in the list interface but not in the Collection interface.
