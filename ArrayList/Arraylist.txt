@@ -1,0 +1,9 @@
+Java ArrayList
+in java we need to declare the size of an array before we can 
+use it. Once the size of an array is declared it's hard to change 
+it.
+To handle this issue we can use the arraylist class. it allows
+us to create resizeable arrays.
+Unlike arrays arraylist can automatically adjust their capacity
+when we add or remove elements from them. Hence ArrayList are also 
+known as dynamic arrays.
