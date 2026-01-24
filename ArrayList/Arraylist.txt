@@ -1,5 +1,6 @@
 Java ArrayList
-in java we need to declare the size of an array before we can 
+
+In java we need to declare the size of an array before we can 
 use it. Once the size of an array is declared it's hard to change 
 it.
 To handle this issue we can use the arraylist class. it allows
@@ -7,3 +8,25 @@ us to create resizeable arrays.
 Unlike arrays arraylist can automatically adjust their capacity
 when we add or remove elements from them. Hence ArrayList are also 
 known as dynamic arrays.
+
+Internal Working of ArrayList
+
+Initially, the array has a certain capacity, and as elements
+are added it fills up.When the capacity is reached, the ArrayList
+creates a new larger array and copies the elements from the old
+array to the new one.This process of resizing and copying is transparent
+to the user.
+
+However frequent resizing operations can lead to performance overhead
+so the arraylist increases its capacity by a certain factor to 
+minimize the frequency of resizing.
+
+formula
+10*3=30/2 = 15+1=16
+
+Java LinkedList
+
+The LinkedList class of the java collections framework provides
+the functionality of the Linked List data structure(doubly LinkedList).
+Elements in LinkedList are not stored in sequence. Instead they are
+scattered and connected through links(Prev and Next).
